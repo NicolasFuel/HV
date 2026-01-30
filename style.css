@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+.parte_entera {
+    display: flex;
+    margin: 10px;
+}
+
+.parte_izquierda{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 20px;
+    padding: 10px;
+    background-color: green;
+    
+}
+
+.parte_derecha {
+    background-color: burlywood;
+}
+
+    
