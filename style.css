@@ -7,21 +7,31 @@
 
 .parte_entera {
     display: flex;
-    margin: 10px;
+    margin: 5px;
 }
 
 .parte_izquierda{
     display: flex;
     flex-direction: column;
     gap: 30px;
-    margin: 20px;
-    padding: 10px;
+    margin: 5px;
     background-color: green;
     
 }
 
 .parte_derecha {
+    display: flex;
     background-color: burlywood;
 }
 
+.imagen {
+    height: 110px;
+    left: 100px;
+    background-color: red;
+}
+
+.foto { 
+    height:100%;
+    left: 100%;
     
+}
