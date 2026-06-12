@@ -19,11 +19,6 @@
     
 }
 
-.parte_derecha {
-    display: flex;
-    background-color: burlywood;
-}
-
 .imagen {
     height: 110px;
     left: 100px;
@@ -33,5 +28,16 @@
 .foto { 
     height:100%;
     left: 100%;
-    
+}
+
+.parte_derecha {
+    background-color: burlywood;
+}
+
+.nombre {
+    display: flex;
+    flex-direction: column;
+    align-items: Center;
+    justify-content: Center;
+    padding: 20px;
 }
